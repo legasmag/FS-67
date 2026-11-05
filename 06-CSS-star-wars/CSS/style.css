@@ -68,16 +68,24 @@ nav li {
     float: right;
     width: 50%;
     border: 1px solid #ffc500;
-    margin: 0.3rem 0 0 0.6rem;
+    margin: 0.3rem 0 0 0.3rem;
+    padding-left: 0.4em;
 }
 
-.right table {
-    width: 100%;
-    
+.right h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
 }
 
-.right img {
+.right .characters {
+    box-sizing: border-box;
     width: 100%;
+}
+
+.characters img {
+    width: 32%;
+    margin: 0.2em;
 }
 
 .far-galaxy {
